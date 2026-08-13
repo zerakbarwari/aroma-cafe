@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Cafe & Coffee Shop Menu</title>
+    <!-- CSS File Link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation Section -->
+    <header class="main-header">
+        <div class="logo">
+            <a href="#">Aroma Cafe</a>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="hero-content">
+            <h1>Fresh Coffee & Delicious Pastries</h1>
+            <p>Experience the finest blend of handcrafted coffee and homemade snacks made daily.</p>
+            <a href="#menu" class="btn">View Our Menu</a>
+        </div>
+    </section>
+    <!-- About Us Section -->
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>Our Story</h2>
+                <p>Founded with a passion for quality, Aroma Cafe offers locally roasted beans and freshly baked artisan treats in a cozy atmosphere.</p>
+            </div>
+            <div class="about-image">
+                <img src="images/cafe-about.jpg" alt="Aroma Cafe Interior">
+            </div>
+        </div>
+    </section>
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+        <div class="section-title">
+            <h2>Our Menu</h2>
+            <p>Explore our wide selection of drinks and pastries</p>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="coffee">Coffee</button>
+            <button class="filter-btn" data-category="desserts">Desserts</button>
+        </div>
+
+        <!-- Menu Grid Container -->
+        <div class="menu-grid">
+            <!-- Menu Item 1 -->
+            <div class="menu-card" data-category="coffee">
+                <img src="images/espresso.jpg" alt="Espresso">
+                <div class="card-info">
+                    <h3>Espresso</h3>
+                    <p>Rich and full-bodied single shot espresso.</p>
+                    <span class="price">$3.50</span>
+                </div>
+            </div>
+
+            <!-- Menu Item 2 -->
+            <div class="menu-card" data-category="desserts">
+                <img src="images/cheesecake.jpg" alt="Cheesecake">
+                <div class="card-info">
+                    <h3>Classic Cheesecake</h3>
+                    <p>Creamy NY style cheesecake with berry drizzle.</p>
+                    <span class="price">$5.00</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="section-title">
+            <h2>Contact Us</h2>
+            <p>Get in touch or visit our location</p>
+        </div>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="main-footer">
+        <p>&copy; 2026 Aroma Cafe. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript File Link -->
+    <script src="js/main.js"></script>
+</body>
+</html>
